@@ -86,3 +86,10 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type PageSearchParams = {
+  searchParams?: {
+    query?: string;
+    page?: string;
+  };
+};
